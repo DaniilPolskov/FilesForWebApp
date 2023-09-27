@@ -7,8 +7,8 @@ import forms from './modules/forms';
 import slider from './modules/slider';
 import {openModal} from './modules/modal';
 
-require("babel-core/register");
-require("babel-polyfill");
+//require("babel-core/register");
+//require("babel-polyfill");
 
 window.addEventListener('DOMContentLoaded', function() {
     const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000);
